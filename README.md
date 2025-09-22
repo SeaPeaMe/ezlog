@@ -19,6 +19,9 @@ ezlog.print_formatted("Hello, World!", foreground_color: .red, styling: [ .under
 ezlog.print_formatted("Hello, World!", foreground_color: .bright_cyan, styling: [ .bold, .italic, .blink ])
 ```
 Here is the general use of how to use the indentation:
+
+<img width="316" height="108" alt="image" src="https://github.com/user-attachments/assets/bb4f38c4-b666-4586-a814-896164de8e46" />
+
 ```v
 // This is optional, creates a log file relative to the executable's location
 // and writes all uses of log, log_message, etc.
